@@ -1,0 +1,28 @@
+{
+  "name": "Zenject",
+  "version": "5.4.0",
+  "description": "Dependency Injection Framework for Unity3D",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCh/Zenject.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "Assets/Plugins/Zenject"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UCh/Zenject/issues"
+  },
+  "homepage": "https://github.com/modesttree/Zenject",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}
